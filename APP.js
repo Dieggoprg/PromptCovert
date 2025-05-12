@@ -6,7 +6,7 @@ do {
 
     switch (opcion) {
         case 1: 
-            let pesos = parseFloat(prompt('Ingrese la cantidad de pesos que desea pasar a dólares:')); // Convertir a número
+            let pesos = parseFloat(prompt('Ingrese la cantidad de pesos que desea pasar a dólares:')); 
             let dolar = 1300;
 
             function convertCurrency(pesos, dolar) {
